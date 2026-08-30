@@ -30,17 +30,17 @@ A responsive expense tracking web application built using **HTML**, **CSS**, and
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.png.png)
 
 ### Adding Transactions
 
-![Income](screenshots/add-income.png)
+![Income](screenshots/add-income.png.png)
 
-![Expense](screenshots/add-expense.png)
+![Expense](screenshots/add-expense.png.png)
 
 ### Transaction History
 
-![History](screenshots/transaction-history.png)
+![History](screenshots/transaction-history.png.png)
 
 ---
 
