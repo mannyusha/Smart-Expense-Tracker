@@ -1,19 +1,19 @@
 # 💰 Smart Expense Tracker
 
-A responsive expense tracking web application built using HTML, CSS, and JavaScript. The application allows users to manage their income and expenses, track their current balance, and securely save transaction data using Local Storage.
+A responsive expense tracking web application built using **HTML**, **CSS**, and **JavaScript**. The application allows users to manage income and expenses, calculate their current balance in real time, and securely save transaction data using **Local Storage**.
 
 ---
 
 ## ✨ Features
 
 - ➕ Add income and expense transactions
-- 💳 Real-time balance calculation
+- 💰 Real-time balance calculation
 - 📊 Separate income and expense summaries
 - 🗂️ Category-based transaction management
 - 🗑️ Delete transactions
-- 💾 Automatic data saving using Local Storage
+- 💾 Data persistence using Local Storage
+- 📅 Transaction history
 - 📱 Responsive user interface
-- 📅 Transaction date support
 
 ---
 
@@ -30,32 +30,31 @@ A responsive expense tracking web application built using HTML, CSS, and JavaScr
 
 ### Home Page
 
-(Add screenshot)
+![Home](screenshots/home.png)
 
 ### Adding Transactions
 
-(Add screenshot)
+![Income](screenshots/add-income.png)
+
+![Expense](screenshots/add-expense.png)
 
 ### Transaction History
 
-(Add screenshot)
-
-### Updated Balance
-
-(Add screenshot)
+![History](screenshots/transaction-history.png)
 
 ---
 
 ## 🚀 Future Improvements
 
-- Edit transactions
-- Search transactions
-- Monthly analytics
-- Pie charts
-- Export reports to PDF
+- ✏️ Edit transactions
+- 📈 Charts and analytics
+- 🔍 Search and filter transactions
+- 📄 Export reports to PDF or Excel
 
 ---
 
 ## 👩‍💻 Author
 
-K. Mannyusha Reddy
+**K. Mannyusha Reddy**
+
+GitHub: https://github.com/mannyusha
