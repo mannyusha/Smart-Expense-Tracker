@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <h1 class="title">Smart Expense Tracker</h1>
+
+    <!-- Balance Card -->
+    <div class="balance-card">
+      <p>Current Balance</p>
+      <h2 id="balance">₹0.00</h2>
+    </div>
+
+    <!-- Income & Expense Summary -->
+    <div class="summary">
+      <div class="card income">
+        <p>Income</p>
+        <h3 id="income">₹0.00</h3>
+      </div>
+
+      <div class="card expense">
+        <p>Expense</p>
+        <h3 id="expense">₹0.00</h3>
+      </div>
+    </div>
+
+    <!-- Add Transaction Form -->
+    <div class="form-section">
+      <h3>Add New Transaction</h3>
+      <form id="transaction-form">
+
+        <input type="text" id="description" placeholder="Description" required />
+
+        <input type="number" id="amount" placeholder="Amount" required />
+
+        <select id="category" required>
+          <option value="">Select Category</option>
+          <option>Food</option>
+          <option>Travel</option>
+          <option>Shopping</option>
+          <option>Salary</option>
+          <option>Rent</option>
+          <option>Other</option>
+        </select>
+
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="type" value="income" required />
+            Income
+          </label>
+          <label>
+            <input type="radio" name="type" value="expense" required />
+            Expense
+          </label>
+        </div>
+
+        <input type="date" id="date" required />
+
+        <button type="submit">Add Transaction</button>
+
+      </form>
+    </div>
+
+    <!-- Transaction History -->
+    <div class="history-section">
+      <h3>Transaction History</h3>
+      <ul id="transaction-list">
+        <!-- JS will add transactions here -->
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
